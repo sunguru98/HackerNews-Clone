@@ -1,11 +1,19 @@
-export interface Story {
+interface Base {
   by: string;
-  descendants: number;
-  id: number;
   kids: number[];
-  score: number;
+  id: number;
   time: number;
-  title: string;
   type: string;
+}
+
+export interface Story extends Base {
+  descendants: number;
+  score: number;
+  title: string;
   url: string;
+}
+
+export interface Comment extends Base {
+  parent: number;
+  text: string;
 }

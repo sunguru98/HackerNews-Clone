@@ -5,7 +5,6 @@ const useFetchStoryIds = (type: string) => {
   const [storyIds, setStoryIds] = useState<number[]>([]);
   useEffect(() => {
     const fetchStoryIds = async (): Promise<void> => {
-      console.log("Im getting created");
       try {
         const { data } = await Axios.get<number[]>(
           `https://hacker-news.firebaseio.com/v0/${type}.json`
