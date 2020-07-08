@@ -1,0 +1,9 @@
+.TopStories {
+  background: #f6f6ef;
+  &__buttons {
+    padding: 1rem;
+    & button:first-child {
+      margin-right: 1rem;
+    }
+  }
+}

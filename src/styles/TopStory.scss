@@ -1,0 +1,29 @@
+.TopStory {
+  background: #f6f6ef;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0.5rem;
+  margin: auto;
+
+  &__content {
+    font-size: 10pt;
+  }
+
+  &__title {
+    margin-left: 0.25rem;
+  }
+
+  &__url,
+  &__info {
+    font-size: 7pt;
+    color: #828282 !important;
+  }
+
+  &__info {
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+  }
+
+  &__url {
+    margin-left: 0.5rem;
+  }
+}

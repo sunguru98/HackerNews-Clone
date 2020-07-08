@@ -1,0 +1,28 @@
+.NavBar {
+  display: flex;
+  padding: 0.5rem;
+  background: #ff6701;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    &-img {
+      width: 18px;
+      height: 18px;
+      border: 1px white solid;
+      margin-right: 0.5rem;
+    }
+
+    &-text {
+      font-weight: bold;
+      font-size: 1.8rem;
+    }
+  }
+
+  &__links {
+    margin-right: auto;
+    margin-left: 1rem;
+  }
+}
